@@ -1,0 +1,73 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 23px;
+    color: #000000;
+    line-height: 26px;
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.site-header {
+    height: 98px;
+    background-color: #ffffff;
+}
+.site-header .brand-logo{
+    margin: 5px;
+    float: left;
+}
+.site-header .main-menu{
+    margin: 15px;
+    float: right;
+}
+.site-header .main-menu ul li{
+    margin: 20px;
+    display: inline;
+}
+.site-header .main-menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.site-header .main-menu ul li a:hover{
+    color: red;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+}
+.flex-item {
+    
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+    margin-top: 100px;
+    line-height: 150px;
+   
+}
+.site-footer {
+    height: 120px;
+    background-color: #000000;
+    margin-top: 100px;
+}
+.footer-text p {
+    display: inline-block;
+    color: #ffffff;
+    margin: 52px 0 0 359px;
+}
+.foot-info-right > *{
+    display: inline-block;
+    vertical-align: middle;
+}
